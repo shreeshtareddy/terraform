@@ -221,7 +221,6 @@ You can find these resources in the AWS Management Console:
 - **VPC**: Under **VPC Dashboard**.
 - **Subnet**: Under **Subnets** in the **VPC Dashboard**.
 - **EC2 Instance**: Under **EC2 Dashboard**.
-
 ---
 
 ## Clean Up
