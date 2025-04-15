@@ -174,6 +174,8 @@ Navigate to your project directory and initialize the Terraform configuration.
 terraform init
 ```
 
+![Screenshot 2025-04-14 190741](https://github.com/user-attachments/assets/a62ba143-2890-4baf-8384-7faf03b5cf70)
+
 This will download the necessary provider plugins and prepare your environment for the next steps.
 
 ### 2. **Plan the Execution**
@@ -194,6 +196,11 @@ After reviewing the plan, apply the configuration to create the resources.
 terraform apply
 ```
 
+
+
+![Screenshot 2025-04-14 190756](https://github.com/user-attachments/assets/cdafbcf5-8b1e-4322-b698-d7ff0dc94def)
+
+
 Terraform will prompt you to confirm the changes by typing `yes`. It will then create the resources defined in the configuration.
 
 ### 4. **Verify the Outputs**
@@ -203,6 +210,10 @@ Once the apply is successful, you can verify the outputs (such as EC2 instance I
 ```bash
 terraform output
 ```
+
+
+![Screenshot 2025-04-14 190809](https://github.com/user-attachments/assets/e4912f7c-5b8b-453a-bd13-d1b7c5243c6c)
+
 
 This will display the values for the instance ID and public IP of the EC2 instance.
 
@@ -221,6 +232,16 @@ You can find these resources in the AWS Management Console:
 - **VPC**: Under **VPC Dashboard**.
 - **Subnet**: Under **Subnets** in the **VPC Dashboard**.
 - **EC2 Instance**: Under **EC2 Dashboard**.
+
+
+![Screenshot 2025-04-14 163722](https://github.com/user-attachments/assets/ccad8b4e-d340-4e76-ac2c-b923bde1d654)
+
+
+![Screenshot 2025-04-14 184103](https://github.com/user-attachments/assets/aaf02c7c-0966-40eb-ba4f-9c1683c61750)
+
+
+![Screenshot 2025-04-14 184052](https://github.com/user-attachments/assets/af9d9a72-fcb7-4a63-a304-40a43401e0f4)
+
 ---
 
 ## Clean Up
